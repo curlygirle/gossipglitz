@@ -23,7 +23,7 @@ export default function App() {
   //Routes for the navigation part
   //Route contains the navigation links
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/gossipglitz">
       <Routes>
         <Route path="/" element={<Navbar />}>
           <Route index element={<Home />} />
