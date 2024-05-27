@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: larafont;
+  src: url(./fonts/Lara\ regular.otf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: neuzeit;
+  src: url(./fonts/NeuzeitGrotesk.otf);
+}
+
+@font-face {
+  font-family: bloodorange;
+  src: url(./fonts/Blood\ Orange\ Bold.otf);
+}
+
+@font-face {
+  font-family: stara;
+  src: url(./fonts/StaraMedium.otf);
+}
+
+* {
+  font-family: stara;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+/* adding navigation bar style as it will be applied to all pages */
+
+.container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* responsive website */
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
 }

@@ -1,0 +1,99 @@
+/* linkspage styling */
+.links-heading {
+  background-color: #f9e7e8;
+  padding: 20px;
+}
+
+.links-heading h1 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 50px;
+  margin: 50px;
+  color: #ed8092;
+  font-family: bloodorange;
+}
+
+.contact-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+input,
+textarea,
+button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #ed8092;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ed7185;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background-color: #ed8092;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: larafont;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #ed7185;
+}
+
+/* responsive page styling */
+@media (max-width: 768px) {
+  .links-heading h1 {
+    font-size: 36px;
+    margin: 30px;
+  }
+
+  form {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .links-heading h1 {
+    font-size: 28px;
+    margin: 20px;
+  }
+
+  input,
+  textarea,
+  button {
+    font-size: 14px;
+    padding: 0.5rem;
+  }
+
+  input,
+  textarea {
+    max-width: 100%;
+  }
+  button {
+    padding: 0.5rem;
+    width: 100%;
+  }
+}

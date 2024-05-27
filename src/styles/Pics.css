@@ -1,0 +1,14 @@
+/* picspage styling */
+.pics-heading {
+  background-color: #f9e7e8;
+  padding: 20px;
+}
+
+.pics-heading h1 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 50px;
+  margin: 50px;
+  color: #ed8092;
+  font-family: bloodorange;
+}
