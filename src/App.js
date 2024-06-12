@@ -17,6 +17,7 @@ import Postfour from "./pages/posts/Postfour";
 import Postfive from "./pages/posts/Postfive";
 import Postsix from "./pages/posts/Postsix";
 import Footer from "./components/Footer";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
   //using BrowserRouter to enable routing - so that i am able to have various pages and have them all linked
@@ -39,6 +40,7 @@ export default function App() {
           <Route path="posts/postfour" element={<Postfour />} />
           <Route path="posts/postfive" element={<Postfive />} />
           <Route path="posts/postsix" element={<Postsix />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
       <Footer />

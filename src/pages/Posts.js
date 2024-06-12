@@ -7,6 +7,7 @@ import blog4 from "../images/blog4.jpg";
 import blog5 from "../images/blog5.jpg";
 // import blog6 from "../images/blog6.jpg";
 import { Link } from "react-router-dom";
+import ScrollToTop from "../components/ScrollToTop";
 
 //posts component
 //this is where my blog posts are stored
@@ -66,6 +67,7 @@ export default function Posts() {
           </Link>
         </section> */}
       </main>
+      <ScrollToTop />
     </section>
   );
 }

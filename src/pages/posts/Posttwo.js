@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/Blogs.css";
+import ScrollToTop from "../../components/ScrollToTop";
 
 //blog post two - where my dev blog post is
 export default function Posttwo() {
@@ -76,6 +77,7 @@ export default function Posttwo() {
           </li>
         </p>
       </section>
+      <ScrollToTop />
     </section>
   );
 }

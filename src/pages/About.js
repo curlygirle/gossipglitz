@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/About.css";
 import aboutimage1 from "../images/about1.jpg";
 import aboutimage2 from "../images/about2.jpg";
+import ScrollToTop from "../components/ScrollToTop";
 
 //about page component
 export default function About() {
@@ -44,6 +45,7 @@ export default function About() {
           </div>
         </section>
       </main>
+      <ScrollToTop />
     </section>
   );
 }

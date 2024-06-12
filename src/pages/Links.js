@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Links.css";
+import ScrollToTop from "../components/ScrollToTop";
 
 //links aka contact component
 export default function Links() {
@@ -39,6 +40,7 @@ export default function Links() {
           </form>
         </section>
       </main>
+      <ScrollToTop />
     </section>
   );
 }

@@ -4,6 +4,7 @@ import map1 from "../../images/map1.png";
 import map2 from "../../images/map2.png";
 import map3 from "../../images/map3.png";
 import map4 from "../../images/map4.png";
+import ScrollToTop from "../../components/ScrollToTop";
 
 //post five - this is where my internet art resreach is
 export default function Postfive() {
@@ -74,6 +75,7 @@ export default function Postfive() {
           at: https://www.exhaustingacrowd.com/berlin (Accessed: 2024).
         </li>
       </section>
+      <ScrollToTop />
     </section>
   );
 }

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import "../styles/Navbar.css";
 import logo from "../images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,25 +19,25 @@ export default function Navbar() {
         <img src={logo} alt="gossip glits logo" className="logo" />
         <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
           <li>
-            <Link to="/">home</Link>
+            <NavLink to="/">home</NavLink>
           </li>
           <li>
-            <Link to="/about">about</Link>
+            <NavLink to="/about">about</NavLink>
           </li>
           <li>
-            <Link to="/gossip">gossip</Link>
+            <NavLink to="/gossip">gossip</NavLink>
           </li>
           <li>
-            <Link to="/posts">posts</Link>
+            <NavLink to="/posts">posts</NavLink>
           </li>
           <li>
-            <Link to="/pics">pics</Link>
+            <NavLink to="/pics">pics</NavLink>
           </li>
           <li>
-            <Link to="/parties">parties</Link>
+            <NavLink to="/parties">parties</NavLink>
           </li>
           <li>
-            <Link to="/links">links</Link>
+            <NavLink to="/links">links</NavLink>
           </li>
         </ul>
         {/* used font awesome icon for this, had to use ai to help change it from an image to use font awesome */}

@@ -90,3 +90,9 @@ nav ul li:hover:after {
     right: -200px;
   }
 }
+
+/* adding style that shows what page we are on  */
+nav a.active {
+  text-decoration: none;
+  font-size: 20px;
+}

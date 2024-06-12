@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/Blogs.css";
+import ScrollToTop from "../../components/ScrollToTop";
 
 //blog post three- where my dev blog post is
 export default function Postthree() {
@@ -57,6 +58,7 @@ export default function Postthree() {
           extent interactive.
         </p>
       </section>
+      <ScrollToTop />
     </section>
   );
 }

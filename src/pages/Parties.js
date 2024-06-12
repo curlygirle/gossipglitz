@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Parties.css";
 import { imageData } from "../components/ImageData";
+import ScrollToTop from "../components/ScrollToTop";
 
 //this is the parties page wherein all my styling takes place
 export default function Parties() {
@@ -86,6 +87,7 @@ export default function Parties() {
           </section>
         </section>
       </section>
+      <ScrollToTop />
     </section>
   );
 }

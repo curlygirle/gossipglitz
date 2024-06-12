@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Gossip.css";
 import { gossipArray } from "../components/Data";
+import ScrollToTop from "../components/ScrollToTop";
 
 //gossip function in the form of an array
 //information here is from the data.js file
@@ -18,6 +19,7 @@ export default function Gossip() {
           </section>
         ))}
       </section>
+      <ScrollToTop />
     </section>
   );
 }
