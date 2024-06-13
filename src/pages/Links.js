@@ -1,8 +1,10 @@
+//importing the necessary components
 import React from "react";
 import "../styles/Links.css";
 import ScrollToTop from "../components/ScrollToTop";
 
 //links aka contact component
+//how you can contact/message 'gossip girl'
 export default function Links() {
   return (
     <section className="links-heading">

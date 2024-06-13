@@ -1,8 +1,11 @@
+//importing the necessary components
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/NotFound.css";
 import ScrollToTop from "../components/ScrollToTop";
 
+//404 page
+//this is a personalised 404 error page so that it can inform users if they have entered somehting that does not relate to the page titles
 export default function NotFound() {
   return (
     <section className="notf-heading">

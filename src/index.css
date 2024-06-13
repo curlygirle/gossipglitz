@@ -1,3 +1,4 @@
+/* importing various fonts */
 @font-face {
   font-family: larafont;
   src: url(./fonts/Lara\ regular.otf);
@@ -18,6 +19,7 @@
   src: url(./fonts/StaraMedium.otf);
 }
 
+/* basic website styling */
 * {
   font-family: stara;
   margin: 0;
@@ -26,7 +28,7 @@
 }
 
 body {
-  background: white;
+  background: #f9e7e8;
 }
 
 a {
@@ -37,7 +39,6 @@ a {
 }
 
 /* adding navigation bar style as it will be applied to all pages */
-
 .container {
   padding-left: 5%;
   padding-right: 5%;

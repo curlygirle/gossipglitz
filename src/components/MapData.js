@@ -1,9 +1,16 @@
+//array containing the map data for internet artwork
+//note the information on the first item in the array apply to all the other items
+
 export const mapData = [
   {
+    //this is so that the pin icon is placed at the exact location
     geocode: [40.7794, -73.9632],
+    //the name of the location
     name: "The Met Steps",
+    //the gossip from the location
     gossip:
       "Serena van der Woodsen having a private conversation with an unknown figure at The Met Steps. What secrets are being exchanged on the iconic steps?",
+    //an image of the location (no characters are in the image - it is so you get a feel of the place)
     image: "imgs/map/metsteps.jpg",
   },
   {

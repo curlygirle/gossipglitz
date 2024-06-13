@@ -13,7 +13,7 @@
   font-family: bloodorange;
 }
 
-/* this is styles that are imported from the leaflet css */
+/* this is styles that are imported from the leaflet css that have been adjusted */
 .leaflet-container {
   height: 100vh;
   border-radius: 15px;

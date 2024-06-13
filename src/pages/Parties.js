@@ -1,3 +1,4 @@
+//importing the necessary components
 import React from "react";
 import "../styles/Parties.css";
 import { imageData } from "../components/ImageData";
@@ -23,14 +24,14 @@ export default function Parties() {
           <p>
             Home Page: This is the homepage, where you are welcomed by the name
             of the site as well as the slogan of the site. There are no images
-            as I just could not find a way on how I wanted to place them. The
-            title is ‘Gossip Glitz’ instead of ‘Gossip Girl’, although the
-            website is inspired by the show, I did not want to copy everything
-            word for word.
+            on the homepage to keep up with my minimal theme along with there
+            being images on all the other pages. The title is ‘Gossip Glitz’
+            instead of ‘Gossip Girl’, although the website is inspired by the
+            show, I did not want to copy everything word for word.
           </p>
           <p>
             About Page: This provides the user with information regarding the
-            page.
+            page, such as what is the site about and how you can use it.
           </p>
           <p>
             Gossip Page: This is the gossip page that contains information about
@@ -44,10 +45,15 @@ export default function Parties() {
             pages.
           </p>
           <p>
-            Pics Page: This page is currently blank as it will be where I place
-            my internet artwork, don’t worry about the naming of the page, it is
-            named like that for the purpose of it linking to my theme, the same
-            applies with the other pages I have.
+            Posts Detail Page: This page represnts how all the post pages will
+            look when you enter the page.
+          </p>
+          <p>
+            Pics Page: This page is where my internet artwork is. If you take
+            look at the wireframe, you are able to see my planning of it. This
+            page contains a map of Manhattan - which is where the show takes
+            place. I was inspired by the use of maps in the series when spotting
+            a character, therefore influencing my internet artwork.
           </p>
           <p>
             Parties Page: This page functions as my design section, where you

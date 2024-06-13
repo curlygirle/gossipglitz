@@ -1,3 +1,4 @@
+//importing the necessary components
 import React from "react";
 import "../styles/Posts.css";
 import blog1 from "../images/blog1.jpg";

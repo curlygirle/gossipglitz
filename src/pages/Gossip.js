@@ -1,3 +1,4 @@
+//importing the necessary components
 import React from "react";
 import "../styles/Gossip.css";
 import { gossipArray } from "../components/Data";

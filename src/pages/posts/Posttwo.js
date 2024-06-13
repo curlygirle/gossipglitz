@@ -1,3 +1,4 @@
+//importing the necessary components
 import React from "react";
 import "../../styles/Blogs.css";
 import ScrollToTop from "../../components/ScrollToTop";

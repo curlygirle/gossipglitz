@@ -1,5 +1,6 @@
-//use w3schools the help with this, as i went through their example along with my previous assignments work
+//used w3schools the help with this, as i went through their example along with my previous assignments work
 //w3schools was more in depth and explained why i use what i use
+//importing all the components
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
@@ -20,6 +21,8 @@ import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
 import AutoTop from "./components/AutoTop";
 
+//this is the app component
+//serves as the main cointainer for the application
 export default function App() {
   //using BrowserRouter to enable routing - so that i am able to have various pages and have them all linked
   //Routes for the navigation part
@@ -42,7 +45,7 @@ export default function App() {
           <Route path="/posts/postfour" element={<Postfour />} />
           <Route path="/posts/postfive" element={<Postfive />} />
           <Route path="/posts/postsix" element={<Postsix />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="/*" element={<NotFound />} />
         </Route>
       </Routes>
       <Footer />

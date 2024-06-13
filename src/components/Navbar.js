@@ -1,3 +1,4 @@
+//importing all the needed components
 import React, { useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import "../styles/Navbar.css";
