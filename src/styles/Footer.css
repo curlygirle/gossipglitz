@@ -20,6 +20,7 @@
   justify-content: space-around;
   width: 100%;
   margin-bottom: 20px;
+  font-size: 15px;
 }
 
 .col {
@@ -30,7 +31,7 @@
 
 .col h4 {
   font-weight: lighter;
-  text-decoration: underline;
+  font-size: 20px;
 }
 
 .list {
@@ -47,6 +48,10 @@
   text-align: center;
   width: 100%;
   padding: 10px;
+}
+
+.links li:hover {
+  color: #ed7185;
 }
 
 /* responsive page styling */

@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/Blogs.css";
 import ScrollToTop from "../../components/ScrollToTop";
+import BackButton from "../../components/BackButton";
 
 //blog post four - where my essay is
 export default function Postfour() {
@@ -271,6 +272,7 @@ export default function Postfour() {
           </li>
         </p>
       </section>
+      <BackButton />
       <ScrollToTop />
     </section>
   );

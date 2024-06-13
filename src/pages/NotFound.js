@@ -20,22 +20,22 @@ export default function NotFound() {
             <Link to="/">Homepage</Link>
           </li>
           <li>
-            <Link to="about">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="gossip">Gossip</Link>
+            <Link to="/gossip">Gossip</Link>
           </li>
           <li>
-            <Link to="posts">Posts</Link>
+            <Link to="/posts">Posts</Link>
           </li>
           <li>
-            <Link to="pics">Pics</Link>
+            <Link to="/pics">Pics</Link>
           </li>
           <li>
-            <Link to="parties">Parties</Link>
+            <Link to="/parties">Parties</Link>
           </li>
           <li>
-            <Link to="links">Links</Link>
+            <Link to="/links">Links</Link>
           </li>
         </p>
       </section>

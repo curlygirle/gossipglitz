@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/Blogs.css";
 import ScrollToTop from "../../components/ScrollToTop";
+import BackButton from "../../components/BackButton";
 
 //blog post one - where my dev blog post is
 export default function Postone() {
@@ -102,6 +103,7 @@ export default function Postone() {
           </li>
         </p>
       </section>
+      <BackButton />
       <ScrollToTop />
     </section>
   );

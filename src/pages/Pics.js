@@ -5,6 +5,7 @@ import { MapContainer, Marker, TileLayer, Popup } from "react-leaflet";
 import { mapData } from "../components/MapData";
 import { Icon, divIcon, point } from "leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster"; //to create map cluster
+import ScrollToTop from "../components/ScrollToTop";
 //pics page
 //this is where my internet art is
 export default function Pics() {
@@ -54,6 +55,7 @@ export default function Pics() {
           </MapContainer>
         </main>
       </section>
+      <ScrollToTop />
     </section>
   );
 }

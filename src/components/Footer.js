@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Footer.css";
+import { Link } from "react-router-dom";
 
 //footer component - includes all the information that is at the bottom of the page
 //not much needed to be explained over here, pretty self explainatory
@@ -30,10 +31,22 @@ export default function Footer() {
           </section>
           <section className="col">
             <h4>Usefull Links</h4>
-            <ul className="list">
-              <li>About</li>
-              <li>Gossip</li>
-              <li>Pics</li>
+            <ul className="list links">
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/gossip">Gossip</Link>
+              </li>
+              <li>
+                <Link to="/pics">Pics</Link>
+              </li>
+              <li>
+                <Link to="/links">Links</Link>
+              </li>
             </ul>
           </section>
         </section>

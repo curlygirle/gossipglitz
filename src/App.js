@@ -18,6 +18,7 @@ import Postfive from "./pages/posts/Postfive";
 import Postsix from "./pages/posts/Postsix";
 import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
+import AutoTop from "./components/AutoTop";
 
 export default function App() {
   //using BrowserRouter to enable routing - so that i am able to have various pages and have them all linked
@@ -25,21 +26,22 @@ export default function App() {
   //Route contains the navigation links
   return (
     <BrowserRouter basename="/gossipglitz">
+      <AutoTop />
       <Routes>
         <Route path="/" element={<Navbar />}>
           <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="gossip" element={<Gossip />} />
-          <Route path="posts" element={<Posts />} />
-          <Route path="pics" element={<Pics />} />
-          <Route path="parties" element={<Parties />} />
-          <Route path="links" element={<Links />} />
-          <Route path="posts/postone" element={<Postone />} />
-          <Route path="posts/posttwo" element={<Posttwo />} />
-          <Route path="posts/postthree" element={<Postthree />} />
-          <Route path="posts/postfour" element={<Postfour />} />
-          <Route path="posts/postfive" element={<Postfive />} />
-          <Route path="posts/postsix" element={<Postsix />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/gossip" element={<Gossip />} />
+          <Route path="/posts" element={<Posts />} />
+          <Route path="/pics" element={<Pics />} />
+          <Route path="/parties" element={<Parties />} />
+          <Route path="/links" element={<Links />} />
+          <Route path="/posts/postone" element={<Postone />} />
+          <Route path="/posts/posttwo" element={<Posttwo />} />
+          <Route path="/posts/postthree" element={<Postthree />} />
+          <Route path="/posts/postfour" element={<Postfour />} />
+          <Route path="/posts/postfive" element={<Postfive />} />
+          <Route path="/posts/postsix" element={<Postsix />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
