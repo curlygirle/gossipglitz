@@ -6,7 +6,7 @@ import blog2 from "../images/blog2.jpg";
 import blog3 from "../images/blog3.jpg";
 import blog4 from "../images/blog4.jpg";
 import blog5 from "../images/blog5.jpg";
-// import blog6 from "../images/blog6.jpg";
+import blog6 from "../images/blog6.jpg";
 import { Link } from "react-router-dom";
 import ScrollToTop from "../components/ScrollToTop";
 
@@ -58,15 +58,15 @@ export default function Posts() {
             </article>
           </Link>
         </section>
-        {/*commented this section out so i can use it in my final exam when i add a reflection */}
-        {/* <section className="post">
+
+        <section className="post">
           <img src={blog6} alt="" />
           <Link to="/posts/Postsix">
             <article className="caption">
-              <p>theory 2</p>
+              <p>internet art reflection</p>
             </article>
           </Link>
-        </section> */}
+        </section>
       </main>
       <ScrollToTop />
     </section>

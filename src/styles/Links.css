@@ -56,7 +56,6 @@ input[type="file"]::-webkit-file-upload-button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-family: larafont;
 }
 
 input[type="file"]::-webkit-file-upload-button:hover {
