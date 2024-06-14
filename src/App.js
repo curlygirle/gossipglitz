@@ -2,7 +2,7 @@
 //w3schools was more in depth and explained why i use what i use
 //importing all the components
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -28,7 +28,7 @@ export default function App() {
   //Routes for the navigation part
   //Route contains the navigation links
   return (
-    <BrowserRouter basename="/gossipglitz">
+    <HashRouter basename="/">
       <AutoTop />
       <Routes>
         <Route path="/" element={<Navbar />}>
@@ -49,6 +49,6 @@ export default function App() {
         </Route>
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
