@@ -32,6 +32,15 @@ export default function Pics() {
     <section>
       <section className="pics-heading">
         <h1>pics</h1>
+        <section className="pics-col">
+          <h4>How to use interactive map:</h4>
+          <p>
+            <li>Drag your mouse around the Manhattan Map</li>
+            <li>Look for the pink cluster icons or black location icons</li>
+            <li>Click on it </li>
+            <li>Behold gossip from the selected location</li>
+          </p>
+        </section>
         <main>
           {/* this is the coordinates of Manhatthan where Gossip Girl takes place in */}
           <MapContainer center={[40.7831, -73.9712]} zoom={14}>
