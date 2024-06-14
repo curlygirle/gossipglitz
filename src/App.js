@@ -45,7 +45,7 @@ export default function App() {
           <Route path="/posts/postfour" element={<Postfour />} />
           <Route path="/posts/postfive" element={<Postfive />} />
           <Route path="/posts/postsix" element={<Postsix />} />
-          <Route path="/*" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
       <Footer />
