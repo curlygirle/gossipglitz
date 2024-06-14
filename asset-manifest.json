@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/gossipglitz/static/css/main.8ab5ae4d.css",
-    "main.js": "/gossipglitz/static/js/main.a41792e2.js",
+    "main.css": "/gossipglitz/static/css/main.03f5437c.css",
+    "main.js": "/gossipglitz/static/js/main.26971cff.js",
     "static/media/map1.png": "/gossipglitz/static/media/map1.a381ee2da1abdb0180da.png",
     "static/media/map2.png": "/gossipglitz/static/media/map2.043cfea54c9cb7f6407d.png",
     "static/media/map4.png": "/gossipglitz/static/media/map4.fbc2a41d5ebf4b740f07.png",
     "static/media/Blood Orange Bold.otf": "/gossipglitz/static/media/Blood Orange Bold.4bd1cc16f1a06a68aae7.otf",
-    "static/media/about1.jpg": "/gossipglitz/static/media/about1.028b5dc81f3e682127db.jpg",
     "static/media/map3.png": "/gossipglitz/static/media/map3.bda1229bd25c02f023bc.png",
     "static/media/StaraMedium.otf": "/gossipglitz/static/media/StaraMedium.e74ab31737818ca0b615.otf",
     "static/media/NeuzeitGrotesk.otf": "/gossipglitz/static/media/NeuzeitGrotesk.dc699cb391eae6ff04a2.otf",
-    "static/media/about2.jpg": "/gossipglitz/static/media/about2.c9b334e348e676c8410b.jpg",
+    "static/media/about1.jpg": "/gossipglitz/static/media/about1.18e3d112c6f1a52a8e7b.jpg",
+    "static/media/about2.jpg": "/gossipglitz/static/media/about2.be1ba220f95f7ba3174d.jpg",
     "static/media/blog5.jpg": "/gossipglitz/static/media/blog5.c0bc7998b6ec0d79de55.jpg",
     "static/media/blog2.jpg": "/gossipglitz/static/media/blog2.70e8d287c616f10cb1e7.jpg",
     "static/media/blog3.jpg": "/gossipglitz/static/media/blog3.7ae835dd7f2544eb8a3e.jpg",
     "static/media/blog1.jpg": "/gossipglitz/static/media/blog1.f29509b1c339c0fc1691.jpg",
     "static/media/blog4.jpg": "/gossipglitz/static/media/blog4.76c39bea278a0dc3e298.jpg",
+    "static/media/blog6.jpg": "/gossipglitz/static/media/blog6.db0257292a86b40481be.jpg",
     "static/media/Lara regular.otf": "/gossipglitz/static/media/Lara regular.ce32d0d11c10d4697f48.otf",
     "static/media/logo.png": "/gossipglitz/static/media/logo.565147cc1f5b2bc5acd4.png",
     "index.html": "/gossipglitz/index.html",
-    "main.8ab5ae4d.css.map": "/gossipglitz/static/css/main.8ab5ae4d.css.map",
-    "main.a41792e2.js.map": "/gossipglitz/static/js/main.a41792e2.js.map"
+    "main.03f5437c.css.map": "/gossipglitz/static/css/main.03f5437c.css.map",
+    "main.26971cff.js.map": "/gossipglitz/static/js/main.26971cff.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ab5ae4d.css",
-    "static/js/main.a41792e2.js"
+    "static/css/main.03f5437c.css",
+    "static/js/main.26971cff.js"
   ]
 }
